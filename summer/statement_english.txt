@@ -1,0 +1,15 @@
+Bob really loves maths and biology. Today on math lesson he was told about graph isomorphism, in particular, he was told that two graphs $G = \left \langle V_G, E_G \right \rangle$ and $H = \left \langle V_H, E_H \right \rangle$ are isomorphic only if there exists a permutation $p = (p_1, p_2, \ldots, p_n)$ such that two vertices $i$ and $j$ are connected in graph $G$ if and only if vertices $p_i$ and $p_j$ are connected in graph $H$. Also he learned that an equivalence class is a set of all isomorphic graphs.
+
+Today on biology lesson he was given a task to count, how many tree species are there in the park near his home. Bob took photographs of all trees long time ago. Now he wants to write a programm to count the answer faster, but he needs your help, because he has never been good at programming.
+
+
+
+The first line of the input contains an integer $n$ ($1 \leq n \leq 100\,000$), the number of trees in the park.
+
+Then go $n$ blocks, describing trees. The first line of $i$-th block contains an integer $m_i$ ($1 \leq m_i \leq 100\,000$)~--- number of vertices in the $i$-th tree. In the $j$-th of the following $m_i - 1$ lines there are two integers $u_j$ and $v_j$ ($1 \leq u_j, v_j \leq m_i$)~--- numbers of vertices connected by $j$-th edge.
+
+It is guarantied, that $\sum\limits_{i = 1}^{n} m_i \leq 1\,000\,000$.
+
+
+
+Print one integer, the number of equivalence classes.
