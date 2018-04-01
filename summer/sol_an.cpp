@@ -1,3 +1,5 @@
+# By Andrey Nedoluzhko
+
 #include <bits/stdc++.h>
 
 using namespace std;
